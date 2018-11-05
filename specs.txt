@@ -1,0 +1,16 @@
+Tetris Game
+
+Description:
+There is a Board. After every fixed time interval a Tile starts dropping down. This tile can be rotated and moved around. When the Tile reaches the bottom of the board it stops moving and stations itself there. At each stage we check for collisions between other stationed tiles and the board. 
+ScoreController keeps track of the score. 
+GameController controls the entire game loop and all the events happening within it. 
+InputController controls the user input.
+
+components: 
+=> Tile
+=> Board
+
+controllers:
+=> ScoreController
+=> GameController
+=> InputController
